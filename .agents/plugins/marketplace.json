@@ -1,0 +1,12 @@
+{
+  "name": "next-level-code-tools",
+  "interface": { "displayName": "Next Level Code Tools" },
+  "plugins": [
+    {
+      "name": "browser-tool-router",
+      "source": { "source": "local", "path": "./plugins/browser-tool-router" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Developer Tools"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "next-level-code-tools",
+  "owner": { "name": "Seth Kranzler" },
+  "metadata": { "description": "Agent tools for the Next Level Code class." },
+  "plugins": [
+    {
+      "name": "browser-tool-router",
+      "source": "./plugins/browser-tool-router",
+      "description": "Pick the right browser tool before an agent touches a browser, and keep it off your screen."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "browser": {
+    "browserName": "chromium",
+    "launchOptions": {
+      "channel": "chrome-for-testing",
+      "headless": true
+    }
+  },
+  "timeouts": {
+    "idle": 1800000
+  }
+}

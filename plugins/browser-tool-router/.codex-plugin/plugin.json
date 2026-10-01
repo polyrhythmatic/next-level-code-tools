@@ -1,0 +1,18 @@
+{
+  "name": "browser-tool-router",
+  "version": "1.0.0",
+  "description": "Pick the right browser tool before an agent touches a browser, and keep it off your screen.",
+  "author": { "name": "Seth Kranzler" },
+  "license": "MIT",
+  "keywords": ["browser", "playwright", "chrome", "automation"],
+  "skills": "./skills/",
+  "hooks": "./hooks/codex-hooks.json",
+  "interface": {
+    "displayName": "Browser Tool Router",
+    "shortDescription": "Pick the right browser tool before touching a browser",
+    "longDescription": "Routes browser work to the right tool: no browser when a fetch works, headless Chrome for Testing by default, your real logged-in Chrome only for logins and bot walls, and chrome-devtools for performance. Agents work in the background and close what they open.",
+    "developerName": "Seth Kranzler",
+    "category": "Developer Tools",
+    "defaultPrompt": ["Set up the browser tool router", "Open this page and take a screenshot"]
+  }
+}

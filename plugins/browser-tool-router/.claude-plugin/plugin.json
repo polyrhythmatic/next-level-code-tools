@@ -1,0 +1,8 @@
+{
+  "name": "browser-tool-router",
+  "version": "1.0.0",
+  "description": "Pick the right browser tool before an agent touches a browser, and keep it off your screen.",
+  "author": { "name": "Seth Kranzler" },
+  "license": "MIT",
+  "keywords": ["browser", "playwright", "chrome", "automation"]
+}
